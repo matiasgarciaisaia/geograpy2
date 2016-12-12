@@ -5,18 +5,6 @@ Extract place names from a URL or text, and add context to those names -- for
 example distinguishing between a country, region or city. 
 
 
-## Install & Setup
-
-Grab the package using `pip` (this will take a few minutes)
-
-    pip install geograpy2
-
-Geograpy2 uses [NLTK](http://www.nltk.org/) for entity recognition, so you'll also need 
-to download the models we're using. Fortunately there's a command that'll take 
-care of this for you. 
-
-    geograpy-nltk
-
 ## Basic Usage
 
 Import the module, give some text or a URL, and presto.
